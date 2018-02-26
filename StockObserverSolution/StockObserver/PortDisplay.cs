@@ -9,7 +9,7 @@ namespace StockObserver
     public class PortDisplay
     {
 
-        public void Display(List<Stock> s, double _totalValue)
+        public void Display(List<Stock> s, double _totalValue) //Write to console
         {
             foreach (Stock _s in s)
             {
