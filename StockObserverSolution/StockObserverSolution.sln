@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockObserver", "StockObserver\StockObserver.csproj", "{A2A03809-FBDD-471D-B3F7-6D92D9A9E9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A03809-FBDD-471D-B3F7-6D92D9A9E9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A03809-FBDD-471D-B3F7-6D92D9A9E9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A03809-FBDD-471D-B3F7-6D92D9A9E9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A03809-FBDD-471D-B3F7-6D92D9A9E9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E3CAF78-3377-4FE4-B7B3-59915FFFEA41}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\obj\Debug\StockObserver.csprojResolveAssemblyReference.cache
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\obj\Debug\StockObserver.csproj.CoreCompileInputs.cache
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\bin\Debug\StockObserver.exe.config
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\bin\Debug\StockObserver.exe
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\bin\Debug\StockObserver.pdb
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\obj\Debug\StockObserver.exe
+D:\Skole\4. Semester\SWD\Observer Hand-In 01\StockObserverSolution\StockObserver\obj\Debug\StockObserver.pdb
