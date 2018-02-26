@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockObserver
 {
+    //Subject interface
     public interface ISubject
     {
         void RegisterObserver(IObserver o);

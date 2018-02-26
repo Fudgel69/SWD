@@ -29,10 +29,10 @@ namespace StockObserver
         //get and set Value of Stock
         public double Value { get; set; }
 
-        //
+        //get and set number of Stock
         public int count { get; set; }
 
-
+        //Set Value and call Observer Notify
         public void SetValueNotify(double _value)
         {
             Value = _value;
@@ -43,17 +43,21 @@ namespace StockObserver
 
 
         #region StockObserver impl
-        public void RegisterObserver(IObserver o) //Add observer
+
+        //Add Observer to List of Observers
+        public void RegisterObserver(IObserver o) 
         {
             observers.Add(o);
         }
 
-        public void RemoveObserver(IObserver o) //Remove observer
+        //Remove an Observer
+        public void RemoveObserver(IObserver o) 
         {
             observers.Remove(o);
         }
 
-        public void NotifyObserver() //Notify Observer
+        //Notify Observer and call update
+        public void NotifyObserver() 
         {
             foreach (var o in observers)
             {

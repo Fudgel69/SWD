@@ -18,15 +18,14 @@ namespace StockObserver
         private double TotalValue;
 
 
-
-
         public Portfolio(List<Stock> _stocks)
         {
             stocks = new List<Stock>();
             stocks = _stocks;
         }
 
-        public void update(string _name, double _value) //Update The stock
+        //Update The stock
+        public void update(string _name, double _value) 
         {
             stocks.Single(x => x.Name == _name).Value = _value;
             TotalValue = 0;
@@ -34,11 +33,11 @@ namespace StockObserver
             {
                 TotalValue += s.Value * s.count;
             }
-            disp.Display(stocks, TotalValue); //Display new value
+            disp.Display(stocks, TotalValue); //Display new TotalValue
         }
 
-
-        public void SellStock(string name, int amount) //Sell stock
+        //Sell stock function
+        public void SellStock(string name, int amount) 
         {
             if (stocks.Single(x => x.Name == name).count > 0)
             {
@@ -51,7 +50,8 @@ namespace StockObserver
 
         }
 
-        public void BuyStock(string name, int amount) //Buy stock
+        //Buy stock function
+        public void BuyStock(string name, int amount) 
         {
             stocks.Single(x => x.Name == name).count += amount;
         }

@@ -8,8 +8,8 @@ namespace StockObserver
 {
     public class PortDisplay
     {
-
-        public void Display(List<Stock> s, double _totalValue) //Write to console
+        //Display function: to print out Stock details
+        public void Display(List<Stock> s, double _totalValue) 
         {
             foreach (Stock _s in s)
             {
@@ -17,9 +17,7 @@ namespace StockObserver
                 Console.WriteLine("Value of the Stock: " + _s.Value);
                 Console.WriteLine("The number of stocks owned:" + _s.count);
             }
-
             Console.WriteLine("Total value of stocks:" + _totalValue);
         }
     }
-
 }
