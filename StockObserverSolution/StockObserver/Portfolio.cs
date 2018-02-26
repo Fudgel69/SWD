@@ -26,7 +26,7 @@ namespace StockObserver
             stocks = _stocks;
         }
 
-        public void update(string _name, double _value)
+        public void update(string _name, double _value) //Update The stock
         {
             stocks.Single(x => x.Name == _name).Value = _value;
             TotalValue = 0;
@@ -34,11 +34,11 @@ namespace StockObserver
             {
                 TotalValue += s.Value * s.count;
             }
-            disp.Display(stocks, TotalValue);
+            disp.Display(stocks, TotalValue); //Display new value
         }
 
 
-        public void SellStock(string name, int amount)
+        public void SellStock(string name, int amount) //Sell stock
         {
             if (stocks.Single(x => x.Name == name).count > 0)
             {
@@ -51,7 +51,7 @@ namespace StockObserver
 
         }
 
-        public void BuyStock(string name, int amount)
+        public void BuyStock(string name, int amount) //Buy stock
         {
             stocks.Single(x => x.Name == name).count += amount;
         }
