@@ -43,17 +43,17 @@ namespace StockObserver
 
 
         #region StockObserver impl
-        public void RegisterObserver(IObserver o)
+        public void RegisterObserver(IObserver o) //Add observer
         {
             observers.Add(o);
         }
 
-        public void RemoveObserver(IObserver o)
+        public void RemoveObserver(IObserver o) //Remove observer
         {
             observers.Remove(o);
         }
 
-        public void NotifyObserver()
+        public void NotifyObserver() //Notify Observer
         {
             foreach (var o in observers)
             {
