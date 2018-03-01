@@ -13,18 +13,33 @@ namespace Sorter.Application
         {
             ArrayGenerator generated = new ArrayGenerator(10000, 100);
             int[] unsortedInts = generated.unsorted;
-            foreach (int i in unsortedInts)
+
+            string yn;
+
+            Console.WriteLine("Would you like to see your unsorted array? (Y)");
+            yn = Console.ReadLine();
+
+            if (yn == "y" || yn == "Y")
             {
-                Console.Write($"{i}");
+                foreach (int i in unsortedInts)
+                {
+                    Console.WriteLine($"{i}");
+                }
             }
-            Console.WriteLine();
+            
             SuperSorter quick = new InsertionSort();
 
             quick.Sort(unsortedInts);
 
-            foreach (int i in unsortedInts)
+            Console.WriteLine("Would you like to see your sorted array? (Y)");
+            yn = Console.ReadLine();
+
+            if (yn == "y" || yn == "Y")
             {
-                Console.Write($"{i}");
+                foreach (int i in unsortedInts)
+                {
+                    Console.WriteLine($"{i}");
+                }
             }
 
 
