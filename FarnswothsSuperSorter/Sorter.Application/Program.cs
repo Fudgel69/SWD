@@ -19,6 +19,7 @@ namespace Sorter.Application
             unique.GenerateArray(100, 10);
             int[] unsortedInts = unique.unsorted;
 
+
             string yn;
 
             Console.WriteLine("Would you like to see your unsorted array? (Y)");

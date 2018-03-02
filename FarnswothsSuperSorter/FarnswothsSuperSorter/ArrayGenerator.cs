@@ -30,6 +30,7 @@ namespace FarnswothsSuperSorter
 
     public class NealySorted : ArrayGenerator
     {
+
         System.Random rand = new System.Random();
         public override void GenerateArray(int n, int seed)
         {
