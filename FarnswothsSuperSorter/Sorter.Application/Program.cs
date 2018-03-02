@@ -11,8 +11,13 @@ namespace Sorter.Application
     {
         static void Main(string[] args)
         {
-            ArrayGenerator generated = new ArrayGenerator(10000, 100);
-            int[] unsortedInts = generated.unsorted;
+            ArrayGenerator random = new RandomArray();
+            ArrayGenerator nealy = new NealySorted();
+            ArrayGenerator reverse = new Reverse();
+            ArrayGenerator unique = new NealyRandom();
+
+            unique.GenerateArray(100, 10);
+            int[] unsortedInts = unique.unsorted;
 
             string yn;
 
@@ -41,6 +46,8 @@ namespace Sorter.Application
                     Console.WriteLine($"{i}");
                 }
             }
+
+
 
 
 
